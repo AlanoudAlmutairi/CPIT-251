@@ -49,7 +49,30 @@ public class eventProvider  {
     }
     
     public void delete_event(){
+           int num =  search(Events ,  eventCode );
         
+                Events[num].setEvent_code(0);
+                Events[num].setEvent_duration(0);
+                Events[num].setEvent_name(null);
+                Events[num].setEvent_place(null);
+                Events[num].setEvent_services(null);
+                Events[num].setEvent_time(0);
+                Events[num].setNumber_of_volunteer(0);
+                Events[num].setVolunteer_role(null);
+               System.out.println("delet done");
+            
+        
+    }
+    
+      public int search(event[]Events , int eventCode ){
+       for(int k = 0 ; k < Events.length ; k++){
+            if (eventCode==(Events[k].getEvent_code()) ){
+                 System.out.print("AAA");
+                return k ;
+                
+            }
+       } 
+     return -1;   
     }
     
     public void accept_volunteer(){
