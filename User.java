@@ -72,4 +72,7 @@ public class User {
     public void forget_password(){
         
     }
+    public void Evaluation(){
+        
+    }
 }
