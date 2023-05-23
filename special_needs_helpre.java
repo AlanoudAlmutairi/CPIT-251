@@ -2,7 +2,7 @@
 public class special_needs_helpre {
     public boolean dealing_with_specia_needs_exp;
     
-    public special_needs_helpre() {
+    private special_needs_helpre() {
     }
 
     public boolean isDealing_with_specia_needs_exp() {
