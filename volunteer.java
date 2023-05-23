@@ -1,10 +1,10 @@
 
 public class volunteer {
 
-    public String volunteer_charactaristics;
-    public int experience_period;
-    public String volunteer_role;
-    public String participatoin_record;
+    private String volunteer_charactaristics;
+    private int experience_period;
+    private String volunteer_role;
+    private String participatoin_record;
 
     public volunteer() {
     }
