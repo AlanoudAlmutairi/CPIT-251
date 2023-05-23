@@ -1,13 +1,13 @@
 
 public class event {
-   public String event_name; 
-   public int event_time;
-   public int event_code;
-   public String event_place;
-   public int event_duration;
-   public String volunteer_role;
-   public int number_of_volunteer;
-   public String event_services; 
+   private String event_name; 
+   private int event_time;
+   private int event_code;
+   private String event_place;
+   private int event_duration;
+   private String volunteer_role;
+   private int number_of_volunteer;
+   private String event_services; 
    
    public event() {
     }
