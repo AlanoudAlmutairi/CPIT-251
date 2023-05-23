@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class eventProvider  {
     Scanner input = new Scanner(System.in);
-    public String event_provider_name;
-    public String event_provider_type;
+    private String event_provider_name;
+    private String event_provider_type;
 
     public eventProvider() {
     }
