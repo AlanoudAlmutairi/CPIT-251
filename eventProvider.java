@@ -67,7 +67,7 @@ public class eventProvider  {
       public int search(event[]Events , int eventCode ){
        for(int index = 0 ; index < Events.length ; index++){
             if (eventCode==(Events[index].getEvent_code()) ){
-                 System.out.print("AAA");
+                 //System.out.print("dearch done");
                 return index ;
                 
             }
