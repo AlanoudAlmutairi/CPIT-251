@@ -2,7 +2,7 @@
 public class Admin {
     private int length_of_service;
     private int rank_of_adminstration;
-
+// constructor
     public Admin(int length_of_service, int rank_of_adminstration) {
         this.length_of_service = length_of_service;
         this.rank_of_adminstration = rank_of_adminstration;
