@@ -65,10 +65,10 @@ public class eventProvider  {
     }
     
       public int search(event[]Events , int eventCode ){
-       for(int k = 0 ; k < Events.length ; k++){
-            if (eventCode==(Events[k].getEvent_code()) ){
+       for(int index = 0 ; index < Events.length ; index++){
+            if (eventCode==(Events[index].getEvent_code()) ){
                  System.out.print("AAA");
-                return k ;
+                return index ;
                 
             }
        } 
