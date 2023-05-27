@@ -55,20 +55,22 @@ public class eventProvider  {
         index++;    
     }
     
-    public void delete_event(){
-           int num =  search(Events ,  eventCode );
-        
-                Events[num].setEvent_code(0);
-                Events[num].setEvent_duration(0);
-                Events[num].setEvent_name(null);
-                Events[num].setEvent_place(null);
-                Events[num].setEvent_services(null);
-                Events[num].setEvent_time(0);
-                Events[num].setNumber_of_volunteer(0);
-                Events[num].setVolunteer_role(null);
-               System.out.println("delet done");
-            
-        
+    public void delete_event(ArrayList<event> event,int eventCode ){
+     int pointer2delet =  search(event ,  eventCode );
+        if (pointer2delet == -1 ){
+                System.out.println("This "+eventCode +" doesn't exists");
+        }
+        else{
+                event.get(pointer2delet).setEvent_code(0);
+                event.get(pointer2delet).setEvent_duration(0);
+                event.get(pointer2delet).setEvent_name(null);
+                event.get(pointer2delet).setEvent_place(null);
+                event.get(pointer2delet).setEvent_services(null);
+                event.get(pointer2delet).setEvent_time(0);
+                event.get(pointer2delet).setNumber_of_volunteer(0);
+                event.get(pointer2delet).setVolunteer_role(null);
+                System.out.println("Deleted successfully");
+            }    
     }
     
       public int search(event[]Events , int eventCode ){
