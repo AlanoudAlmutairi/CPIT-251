@@ -33,19 +33,26 @@ public class eventProvider  {
     }
     
     
-    public void add_event(){
-    String event_name= input.next(); 
-    int event_time= input.nextInt();
-    int event_code= input.nextInt();
-    String event_place=input.next();
-    int event_duration = input.nextInt();
-    String volunteer_role= input.next();
-    int number_of_volunteer = input.nextInt();
-    String event_services = input.next();
-    
-    event newEvent = new event (event_name,  event_time,  event_code,  
-      event_place,  event_duration,  volunteer_role,  number_of_volunteer,  event_services );
-        
+        public void add_event(ArrayList<event> event , int index ){
+        System.out.println("Enter event name: ");
+        String event_name= input.next(); 
+        System.out.println("Enter event time: ");
+        int event_time= input.nextInt();
+        System.out.println("Enter event code: ");
+        int event_code= input.nextInt();
+        System.out.println("Enter event place: ");
+        String event_place=input.next();
+        System.out.println("Enter event duration: ");
+        int event_duration = input.nextInt();
+        System.out.println("Enter volunteer role: ");
+        String volunteer_role= input.next();
+        System.out.println("Enter number of volunteer: ");
+        int number_of_volunteer = input.nextInt();
+        System.out.println("Enter event services: ");
+        String event_services = input.next();
+        event ee= new event (event_name,  event_time,  event_code, event_place,  event_duration,  volunteer_role,  number_of_volunteer,  event_services );
+        event.add(ee);
+        index++;    
     }
     
     public void delete_event(){
