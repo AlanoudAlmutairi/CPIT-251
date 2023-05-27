@@ -122,10 +122,10 @@ public class Main {
                   
     }
     
-   public static void show_advertisements (ArrayList<Advertisement> Adv){
-            System.out.println("");
-            for(int i=0; i< Adv.size();++i){
-            System.out.println(Adv.get(i).toString());
+   public static void show_advertisements (ArrayList<Advertisement> Advertisments){
+            System.out.println("List of Advertisments: ");
+            for(int i=0; j<advertisments.size(); i++){
+                System.out.println(Advertisments.get(i).toString());
             }
    }
     
