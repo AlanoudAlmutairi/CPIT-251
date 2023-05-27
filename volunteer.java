@@ -1,5 +1,5 @@
 
-public class volunteer {
+public class volunteer extends User {
 
     private String volunteer_charactaristics;
     private int experience_period;
