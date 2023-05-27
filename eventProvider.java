@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 
-public class eventProvider  {
+public class eventProvider extends User {
     Scanner input = new Scanner(System.in);
     private String event_provider_name;
     private String event_provider_type;
