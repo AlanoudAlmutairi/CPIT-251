@@ -1,4 +1,4 @@
 
-public class events_helper_volunteers {
+public class events_helper_volunteers extends Volunteer{
     private boolean events_dealing_experience;
 }
