@@ -2,11 +2,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-
 /**
  *
  * @author alano
@@ -52,7 +47,7 @@ public class Main {
                    break;
            }
   
-    }while(Role!='e');   
+      }while(Role!='e');   
     } 
     
     
