@@ -73,5 +73,8 @@ public class Admin {
     public void provide_leadership_on_issues(){
         
     }
+     public String toString() {
+        return "Admin{" + "length_of_service: " + length_of_service + ", rank_of_adminstration: " +rank_of_adminstration + '}';
+    }
 }
 
