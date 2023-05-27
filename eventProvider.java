@@ -70,8 +70,9 @@ public class eventProvider  {
                 event.get(pointer2delet).setNumber_of_volunteer(0);
                 event.get(pointer2delet).setVolunteer_role(null);
                 System.out.println("Deleted successfully");
-            }    
+        }
     }
+       
     
       public int search(event[]Events , int eventCode ){
        for(int index = 0 ; index < Events.length ; index++){
