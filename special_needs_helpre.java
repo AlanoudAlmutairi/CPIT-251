@@ -1,5 +1,5 @@
 
-public class special_needs_helpre {
+public class special_needs_helpre extends Volunteer {
     public boolean dealing_with_specia_needs_exp;
     
     private special_needs_helpre() {
