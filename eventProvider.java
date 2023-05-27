@@ -10,7 +10,6 @@ public class eventProvider extends User {
     public eventProvider() {
     }
 
-    
     public eventProvider(String event_provider_name, String event_provider_type) {
         this.event_provider_name = event_provider_name;
         this.event_provider_type = event_provider_type;
@@ -79,21 +78,16 @@ public class eventProvider extends User {
             if (eventCode==(Events[index].getEvent_code()) ){
                  //System.out.print("dearch done");
                 return index ;
-                
             }
        } 
      return -1;   
     }
     
     public void accept_volunteer(){
-        
     }
 
     @Override
     public String toString() {
         return "eventProvider{" + "event_provider_name=" + event_provider_name + ", event_provider_type=" + event_provider_type + '}';
     }
-    
-    
-    
 }
