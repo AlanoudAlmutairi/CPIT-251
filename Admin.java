@@ -1,5 +1,5 @@
 
-public class Admin {
+public class Admin extends User{
     private int length_of_service;
     private int rank_of_adminstration;
 // constructor
