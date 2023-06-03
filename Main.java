@@ -83,10 +83,10 @@ public class Main {
         do {
              System.out.println("Enter r for reges , Enter d for Delete , q for quit");
              service = input.next().charAt(0);
-             if (service == 'r'){
+             if (service == 'r')
              show_advertisements(Adv);
          }
-        
+    }   
         
     public static void Provider(eventProvider p , ArrayList<event> event, int index, Scanner input ){
         
