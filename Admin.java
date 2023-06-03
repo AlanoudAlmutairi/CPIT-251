@@ -1,3 +1,5 @@
+import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Admin extends User{
     private int length_of_service;
@@ -25,6 +27,7 @@ public class Admin extends User{
     }
   
      public String add_advertisements( ArrayList<Advertisement> Adv, int index ){
+      Scanner input = new Scanner(System.in);
      System.out.print("Enter event specification: ");
      String event_specifications = input.next();
      System.out.print("Enter Advertisement code :");
