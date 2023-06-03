@@ -85,7 +85,7 @@ public class Main {
              service = input.next().charAt(0);
              if (service == 'r')
              show_advertisements(Adv);
-         }
+         }while(service != 'q');
     }   
         
     public static void Provider(eventProvider p , ArrayList<event> event, int index, Scanner input ){
