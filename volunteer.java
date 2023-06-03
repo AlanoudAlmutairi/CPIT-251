@@ -51,7 +51,7 @@ public class volunteer extends User {
     public void setParticipatoin_record(String participatoin_record) {
         this.participatoin_record = participatoin_record;
     }
-    public void delete volunteer(String volunteer_charactaristics,int experience_period,String volunteer_role,String participatoin_record){
+    public void delete_volunteer(String volunteer_charactaristics,int experience_period,String volunteer_role,String participatoin_record){
         
     }
     public void register(){
